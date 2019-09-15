@@ -1,6 +1,6 @@
 {
   "name": "@plainhardware/ui-kit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Plain Hardware UI-Kit",
   "homepage": "https://github.com/plainhardware/ui-kit#readme",
   "repository": {
@@ -39,6 +39,8 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build": "tsc",
+    "prepublish": "yarn version --patch; yarn run build"
   }
 }
