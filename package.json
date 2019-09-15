@@ -1,6 +1,6 @@
 {
   "name": "@plainhardware/ui-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plain Hardware UI-Kit",
   "homepage": "https://github.com/plainhardware/ui-kit#readme",
   "repository": {
@@ -14,7 +14,9 @@
     "ui-kit"
   ],
   "main": "lib/index.js",
-  "files": ["lib/**"],
+  "files": [
+    "lib/**"
+  ],
   "publishConfig": {
     "access": "public"
   },
