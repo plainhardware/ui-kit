@@ -1,0 +1,42 @@
+{
+  "name": "@plainhardware/ui-kit",
+  "version": "1.0.0",
+  "description": "Plain Hardware UI-Kit",
+  "homepage": "https://github.com/plainhardware/ui-kit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plainhardware/ui-kit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plainhardware/ui-kit/issues"
+  },
+  "keywords": [
+    "ui-kit"
+  ],
+  "main": "lib/index.js",
+  "files": ["lib/**"],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Jonathan Abrahams",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@storybook/addon-actions": "^5.2.0",
+    "@storybook/addon-links": "^5.2.0",
+    "@storybook/addons": "^5.2.0",
+    "@storybook/react": "^5.2.0",
+    "@types/jest": "^24.0.18",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  }
+}
