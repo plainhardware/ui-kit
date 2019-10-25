@@ -7,9 +7,11 @@
       "sourceMap": true,
       "allowJs": false,      
       "jsx": "react",
+      "resolveJsonModule": true,
       "moduleResolution": "node",
       "rootDirs": ["src","stories"],
-      "baseUrl": "src","forceConsistentCasingInFileNames": true,
+      "baseUrl": "src",
+      "forceConsistentCasingInFileNames": true,
       "esModuleInterop": true,
       "noImplicitReturns": true,
       "noImplicitThis": true,
@@ -25,6 +27,7 @@
     "include": ["src/**/*"],
     "exclude": [
       "node_modules",
-      "src/**/*.stories.tsx"
+      "src/**/*.stories.tsx",
+      "**/*.test.tsx"
     ]
   }
